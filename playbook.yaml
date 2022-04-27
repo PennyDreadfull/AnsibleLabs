@@ -20,3 +20,5 @@
     file:
       path: /tmp/Kazlauskaite/java_dns
       state: directory
+  - name: download sources
+    get_url: url=https://repo1.maven.org/maven2/dnsjava/dnsjava/3.5.0/dnsjava-3.5.0.jar dest=/tmp/Kazlauskaite/java_dns/dnsjava-3.5.0.jar
