@@ -9,5 +9,5 @@
 - name: "This is test only for backend server"
   hosts: back-end-servers
   
-- name: "This is test only for backend server"
+- name: "This is test only for one server"
   hosts: 52.53.213.191
