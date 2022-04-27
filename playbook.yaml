@@ -14,8 +14,9 @@
   
 - name: "This test is for server classes, task 3"
   hosts: "{{class}}"
-
- - name: Creates directory
+  
+  tasks:
+  - name: Creates directory
     file:
-      path: /tmp/Kazlauskaite/java_dns/
+      path: /tmp/Kazlauskaite/java_dns
       state: directory
