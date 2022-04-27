@@ -1,16 +1,21 @@
 ---
 #This is Ansible test for labs2 on 27/04/22
-- name: "This is test playbook for AnsibleLabs2"
-  hosts: all
+# - name: "This is test playbook for AnsibleLabs2"
+#   hosts: all
   
-- name: "This is test only for frontend server"
-  hosts: front-end-servers
+# - name: "This is test only for frontend server"
+#   hosts: front-end-servers
   
-- name: "This is test only for backend servers (two of them)"
-  hosts: back-end-servers
+# - name: "This is test only for backend servers (two of them)"
+#   hosts: back-end-servers
   
-- name: "This is test only for one server"
-  hosts: 52.53.213.191
+# - name: "This is test only for one server"
+#   hosts: 52.53.213.191
   
 - name: "This test is for server classes, task 3"
   hosts: "{{class}}"
+
+ - name: Creates directory
+    file:
+      path: /tmp/Kazlauskaite/java_dns/
+      state: directory
