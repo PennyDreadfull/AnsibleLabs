@@ -11,3 +11,6 @@
   
 - name: "This is test only for one server"
   hosts: 52.53.213.191
+  
+- name: "This test is for server classes, task 3"
+  hosts: "{{class}}"
