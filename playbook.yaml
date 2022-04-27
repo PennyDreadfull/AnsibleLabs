@@ -6,7 +6,7 @@
 - name: "This is test only for frontend server"
   hosts: front-end-servers
   
-- name: "This is test only for backend server"
+- name: "This is test only for backend servers (two of them)"
   hosts: back-end-servers
   
 - name: "This is test only for one server"
